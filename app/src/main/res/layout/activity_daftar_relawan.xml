@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarRelawanActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/lingkarankuning"
+            android:src="@drawable/icon_notification"
+            android:layout_gravity="center"/>
+
+        <ListView
+            android:id="@+id/listViewDaftarRelawan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="70dp"
+            android:divider="@color/white"
+            android:dividerHeight="10dp"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navigasi"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation_admin"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="@color/darkBrown"
+        app:itemTextColor="@color/darkBrown"
+        app:itemBackground="@color/colorPrimary"
+        >
+
+    </android.support.design.widget.BottomNavigationView>
+
+</RelativeLayout>

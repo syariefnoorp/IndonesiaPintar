@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinnerJenjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:entries="@array/filter_sekolah"></Spinner>
+
+        <ListView
+            android:id="@+id/listViewSekolah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/white"
+            android:dividerHeight="10dp"
+            android:layout_marginBottom="70dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTambahSekolah"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_plus"
+        android:layout_above="@+id/navigasi"
+        android:layout_alignParentRight="true"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navigasi"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="@color/darkBrown"
+        app:itemTextColor="@color/darkBrown"
+        app:itemBackground="@color/colorPrimary"
+        >
+
+    </android.support.design.widget.BottomNavigationView>
+
+
+</RelativeLayout>

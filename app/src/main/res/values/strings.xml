@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SIP</string>
+    <string-array name="filter_sekolah">
+        <item>Semua Jenjang </item>
+        <item>SD </item>
+        <item>SMP</item>
+        <item>SMA</item>
+    </string-array>
+</resources>

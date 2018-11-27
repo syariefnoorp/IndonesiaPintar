@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "697843474402",
+    "firebase_url": "https://indonesiapintarapp.firebaseio.com",
+    "project_id": "indonesiapintarapp",
+    "storage_bucket": "indonesiapintarapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697843474402:android:db2c160efb4ce57e",
+        "android_client_info": {
+          "package_name": "com.example.noor.indonesiapintarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697843474402-5uvv5g6rf6uf92a3cdaohvhpjk4r9tss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.noor.indonesiapintarapp",
+            "certificate_hash": "d7927729c71eaa4ced8484d240be746c2814674f"
+          }
+        },
+        {
+          "client_id": "697843474402-2lcpsnbssenn8nnta2lu477gd1h1hkp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBY7gN10M5kRDL49cQwGm84CKgGDieXAY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697843474402-2lcpsnbssenn8nnta2lu477gd1h1hkp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

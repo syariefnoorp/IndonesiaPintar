@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/head"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="30dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:drawableLeft="@drawable/icon_email"
+        android:drawablePadding="5dp"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/darkBrown" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:layout_marginHorizontal="40dp"
+        android:drawableLeft="@drawable/icon_key"
+        android:drawablePadding="5dp"
+        android:textColor="@color/darkBrown"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="40dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/tombolorange"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum memiliki akun?"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/linkDaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:textColorLink="@color/brown"
+        android:layout_gravity="center"/>
+
+    <ProgressBar
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/orange"
+        android:id="@+id/loadingBar"
+        android:visibility="gone"/>
+
+</LinearLayout>
